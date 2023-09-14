@@ -14,10 +14,6 @@ INTEGRANTES:
 
 -💻 Ledesma, Silvana Soledad
 
--💻 Karim Tala
-
--💻 Jennifer Ruiz Diaz 
-
 Lenguajes:
 Python - Java	- Javascript
 
