@@ -32,3 +32,5 @@ Python - Java	- Javascript
 | semana 9 |	Genaro Mazzocca |
 | semana 10 |	Santiago Martos |
 | semana 11 |	Agustín Martinez |
+| semana 12 |	Agustín Martinez |
+| semana 13 |	Agustín Martinez |
