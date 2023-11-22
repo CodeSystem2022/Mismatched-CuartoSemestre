@@ -9,7 +9,7 @@
     "dev": "nodemon ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Santiago Martos",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",

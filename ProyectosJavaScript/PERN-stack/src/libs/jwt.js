@@ -1,5 +1,4 @@
 import jwt from "jsonwebtoken"
-import { token } from "morgan";
 
 export const createAccessToken = (paylod) => {
     return new Promise((resolve, reject) => {

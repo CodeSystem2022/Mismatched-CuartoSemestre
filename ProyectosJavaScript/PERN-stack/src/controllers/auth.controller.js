@@ -19,8 +19,8 @@ export const signin = async (req, res) => {
     const token = await createAccessToken({id: result.rows[0].id});
         console.log(result);
         res.cookie("token", token, {
-            httpOnly: true,
-            secure: false,
+            //httpOnly: true,
+            secure: true,
             sameSite: "none",
             maxAge: 60 * 60 * 24 * 1000, // 1 Dia
         });
@@ -36,11 +36,11 @@ export const signup = async (req, res, next) => {
         const gravatar = "https://gravatar.com/avatar/" + md5(email);
 
         const result= await pool.query("INSERT INTO usuarios (name, email, password, gravatar) VALUES ($1, $2, $3, $4) RETURNING *", [name, email, hashedPassword, gravatar]);
-        const token = await createAccessToken({id: result.rows[0].id});
         
+        const token = await createAccessToken({id: result.rows[0].id});
         res.cookie("token", token, {
-            httpOnly: true,
-            secure: false,
+            //httpOnly: true,
+            secure: true,
             sameSite: "none",
             maxAge: 60 * 60 * 24 * 1000, // 1 Dia
         });

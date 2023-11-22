@@ -1,0 +1,3 @@
+## PROYECTO PERN TAREAS / AUTENTICACION
+
+¡Bienvenido a TareasApp! Este proyecto, es una plataforma de gestión de tareas que utiliza la potencia del stack PERN (PostgreSQL, Express, React, Node). Simplificamos tu día a día al ofrecer una interfaz intuitiva para organizar, asignar y hacer un seguimiento eficiente de tus tareas. La aplicación proporciona una experiencia fluida y moderna, permitiéndote optimizar tu productividad de manera efectiva. ¡Descarga el código, configura tu entorno y comienza a mejorar tu gestión de tareas hoy mismo!
